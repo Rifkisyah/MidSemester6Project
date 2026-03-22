@@ -63,8 +63,13 @@ cd your-repo
 composer install
 npm install
 ```
+4. Run Migration and Seeder
+```
+php artisan migrate
+php artisan db:seed
+```
 
-4. Run development server
+5. Run development server
 
 ```
 php artisan serve
