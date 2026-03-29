@@ -26,18 +26,23 @@ resources/views/
 │   ├── dashboard-content.blade.php
 │   ├── product-content.blade.php
 │   ├── product-category-content.blade.php
+│   ├── about-us-content.blade.php
 │   └── user-content.blade.php
 │
 ├── layouts/
 │   ├── app.blade.php
+    ├── landing-page.blade.php
 │   └── parts/
 │       ├── side-bar.blade.php
 │       ├── dashboard.blade.php
 │       ├── product.blade.php
 │       ├── product-category.blade.php
+│       ├── header.blade.php
+        ├── about-us.blade.php
+│       ├── footer.blade.php
 │       └── user.blade.php
+
 │
-├── layouts/landing.blade.php
 └── index.blade.php
 ```
 
@@ -48,16 +53,16 @@ resources/views/
 1. Clone the repository
 
 ```
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/Rifkisyah/MidSemester6Project.git
 ```
 
 2. Navigate to project directory
 
 ```
-cd your-repo
+cd MidSemester6Project
 ```
 
-3. Install dependencies
+3. Install dependencies if not installed
 
 ```
 composer install
@@ -69,12 +74,13 @@ php artisan migrate
 php artisan db:seed
 ```
 
-5. Run development server
+5. Run development server (all required)
 
 ```
+npm run dev 
 php artisan serve
-npm run dev
 ```
+6. Run your Localhost for database access
 
 ---
 
@@ -87,8 +93,6 @@ Accessible at:
 ```
 /
 ```
-
-This page is public and does not require authentication.
 
 ---
 
@@ -147,13 +151,6 @@ Handles:
 * Tailwind CSS
 
 ---
-
-## Future Improvements
-
-* Add authentication system
-* Role & permission management
-* Dynamic menu from database/config
-* Responsive sidebar (collapse)
 
 ---
 

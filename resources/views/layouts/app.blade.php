@@ -21,20 +21,31 @@
         .account-link:hover { background: #3d68ff; }
     </style>
 </head>
-<body class="bg-gray-100 font-family-karla flex">
-    {{-- =========================== HEADER =========================== --}}
-    @include('layouts.parts.header')
+<body class="bg-gray-100 font-family-karla">
 
-    {{-- =========================== SIDE BAR =========================== --}}
-    @include('layouts.parts.side-bar')
+    <div class="flex min-h-screen">
 
-    {{-- =========================== CONTENT =========================== --}}
-    <div class="w-full overflow-x-hidden border-t flex flex-col">
-        @yield('content')
+        {{-- SIDEBAR --}}
+        @include('layouts.parts.side-bar')
+
+        {{-- CONTENT AREA --}}
+        <div class="flex-1 flex flex-col">
+
+            {{-- HEADER --}}
+            @include('layouts.parts.header')
+
+            {{-- MAIN CONTENT --}}
+            <main class="flex-1 p-6">
+                @yield('content')
+            </main>
+
+            {{-- FOOTER --}}
+            @include('layouts.parts.footer')
+
+        </div>
+
     </div>
 
-    {{-- =========================== FOOTER =========================== --}}
-    @include('layouts.parts.footer')
 </body>
 @stack('scripts')
 </html>

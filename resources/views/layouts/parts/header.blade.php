@@ -1,7 +1,11 @@
 <header class="w-full bg-white shadow flex justify-between items-center px-6 py-3">
     <!-- Title -->
     <div class="flex items-center gap-6">
-        <h1 class="text-xl font-bold text-gray-800">Dashboard</h1>
+        <h1 class="text-xl font-bold text-gray-800">AdminPanelTeam1</h1>
+    </div>
+
+    <!-- User & actions -->
+    <div class="flex items-center gap-4">
         <!-- Search bar -->
         <div class="relative">
             <input 
@@ -13,10 +17,6 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 1110.5 3a7.5 7.5 0 016.15 13.65z" />
             </svg>
         </div>
-    </div>
-
-    <!-- User & actions -->
-    <div class="flex items-center gap-4">
         <!-- Notifications -->
         <button class="relative p-2 rounded-full hover:bg-gray-100">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -28,7 +28,7 @@
         <!-- User profile -->
         <div class="flex items-center gap-2 cursor-pointer">
             <span class="text-gray-700 font-medium">Hi, User</span>
-            <img src="https://via.placeholder.com/40" class="rounded-full border border-gray-200">
+            <img src="https://res.cloudinary.com/demo/image/facebook/s--ZuJGmG2B--/65646572251" class="rounded-full border border-gray-200 w-8 h-8 object-cover" alt="User Avatar">
         </div>
     </div>
 </header>

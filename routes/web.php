@@ -32,3 +32,7 @@ Route::get('/product-category', [ProductCategoryController::class, 'index'])
     ->name('categories');
 
 Route::resource('categories', ProductCategoryController::class);
+
+Route::get('/about-us', function() {
+    return view('layouts.parts.about-us');
+})->name('about-us');

@@ -1,7 +1,7 @@
 <footer class="w-full bg-white shadow-inner mt-auto px-6 py-4 flex justify-between items-center text-sm text-gray-500">
     <!-- Left side -->
     <div>
-        &copy; 2026 <span class="font-semibold text-gray-700">MidSemester6Project</span>. All rights reserved.
+        &copy; 2026 <span class="font-semibold text-gray-700">AdminPanelTeam1</span>. All rights reserved.
     </div>
 
     <!-- Right side (opsional link) -->

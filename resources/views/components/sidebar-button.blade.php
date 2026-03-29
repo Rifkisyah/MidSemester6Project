@@ -17,7 +17,9 @@
     } elseif ($type == 'product-category') {
         $icon = 'fas fa-list mr-3';
         $destination = route('categories');
-
+    } elseif($type == 'about-us') {
+        $icon = 'fas fa-info-circle mr-3';
+        $destination = route('about-us');
     }
 @endphp
 

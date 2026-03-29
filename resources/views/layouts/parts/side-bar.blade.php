@@ -26,5 +26,10 @@
                     Product Category
                 </x-slot>
             </x-sidebar-button>
+            <x-sidebar-button type='about-us'>
+                <x-slot>
+                    About Us
+                </x-slot>
+            </x-sidebar-button>
         </nav>
     </aside>
